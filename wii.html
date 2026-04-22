@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nintendo Wii – RetroGames</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --accent: #dd88ff; }
+    .wii-bg { background: radial-gradient(ellipse at 50% 0%, rgba(107,60,153,0.4) 0%, transparent 70%); }
+    .game-banner.wiisports { background: linear-gradient(135deg, #1188cc, #0055aa); }
+    .game-banner.hamburger { background: linear-gradient(135deg, #e87020, #aa3300); }
+    .game-banner.mariokart { background: linear-gradient(135deg, #cc2200, #881100); }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🎮</span>
+        <span class="logo-text">RetroGames</span>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Início</a>
+        <a href="ps2.html">PS2</a>
+        <a href="ps3.html">PS3</a>
+        <a href="xbox.html">Xbox</a>
+        <a href="wii.html" class="active">Wii</a>
+      </nav>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="index.html">Início</a>
+      <a href="ps2.html">PS2</a>
+      <a href="ps3.html">PS3</a>
+      <a href="xbox.html">Xbox</a>
+      <a href="wii.html">Wii</a>
+    </nav>
+  </header>
+
+  <div class="wii-bg">
+    <section class="page-hero">
+      <p class="badge">Console Clássico · 2006 – 2013</p>
+      <h1>Nintendo <span>Wii</span></h1>
+      <p>O Wii revolucionou a indústria ao colocar o movimento físico no centro da experiência de jogo com o controle Wiimote. Acessível a todas as idades, o console da Nintendo trouxe pessoas que nunca tinham jogado videogame para o universo dos games.</p>
+    </section>
+  </div>
+
+  <div class="console-info">
+
+    <div class="info-grid">
+      <div class="info-card">
+        <h2>Sobre o Console</h2>
+        <p>Lançado em novembro de 2006, o Nintendo Wii apostou numa estratégia diferente de seus concorrentes: em vez de competir em poder de hardware, priorizou a inovação na jogabilidade. O controle Wiimote com sensor de movimento permitiu experiências completamente novas, como simular o balanço de uma raquete de tênis ou a pancada de um taco de golfe. O resultado foi um console que conquistou o público não-gamer e se tornou um fenômeno cultural.</p>
+      </div>
+      <div class="info-card">
+        <h2>Especificações</h2>
+        <table class="specs-table">
+          <tr><th>CPU</th><td>IBM Broadway 729 MHz</td></tr>
+          <tr><th>GPU</th><td>ATI Hollywood 243 MHz</td></tr>
+          <tr><th>RAM</th><td>88 MB (24 MB + 64 MB)</td></tr>
+          <tr><th>Mídia</th><td>Wii Optical Disc / DVD</td></tr>
+          <tr><th>Lançamento</th><td>Novembro de 2006 (NA)</td></tr>
+          <tr><th>Unidades vendidas</th><td>~101 milhões</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <section class="games-section">
+      <h2 class="section-title">Jogos Clássicos</h2>
+      <div class="games-grid">
+
+        <div class="game-card">
+          <div class="game-banner wiisports">🎾</div>
+          <div class="game-body">
+            <h3>Wii Sports</h3>
+            <p class="genre">Esportes / Party Game</p>
+            <p>Wii Sports foi o jogo que acompanhava o console e se tornou um dos títulos mais vendidos da história, com 82 milhões de cópias. Com cinco modalidades — tênis, boliche, boxe, golfe e beisebol — o game usava o Wiimote para simular os movimentos reais de cada esporte. Foi responsável por levar o Wii para lares de pessoas de todas as idades, incluindo idosos em casas de repouso que passaram a jogar boliche virtualmente.</p>
+            <a href="https://www.youtube.com/results?search_query=wii+sports+gameplay" target="_blank" class="game-link">▶ Ver Gameplay</a>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <div class="game-banner hamburger">🍔</div>
+          <div class="game-body">
+            <h3>Tá Chovendo Hambúrguer</h3>
+            <p class="genre">Aventura / Plataforma</p>
+            <p>Baseado no filme animado de 2009 "Tá Chovendo Hambúrguer" (Cloudy with a Chance of Meatballs), o jogo para Wii colocava os jogadores no controle de Flint Lockwood explorando a cidade de Swallow Falls inundada por comida gigante. Com controles de movimento do Wiimote, fases coloridas e humor familiar, o título conquistou crianças e pais ao redor do mundo, sendo uma das melhores adaptações de filmes em jogo da época.</p>
+            <a href="https://www.youtube.com/results?search_query=cloudy+with+a+chance+of+meatballs+wii+gameplay" target="_blank" class="game-link">▶ Ver Gameplay</a>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <div class="game-banner mariokart">🏁</div>
+          <div class="game-body">
+            <h3>Mario Kart Wii</h3>
+            <p class="genre">Corrida / Party Game</p>
+            <p>Mario Kart Wii, lançado em 2008, é um dos jogos mais vendidos do console com mais de 37 milhões de cópias. Vinha com um volante plástico para encaixar o Wiimote, tornando a experiência de direção mais imersiva e intuitiva. Com 32 pistas, 24 personagens e o modo Battle, o game trouxe o modo online ao Mario Kart pela primeira vez de forma robusta, permitindo corridas contra jogadores do mundo inteiro.</p>
+            <a href="https://www.youtube.com/results?search_query=mario+kart+wii+gameplay" target="_blank" class="game-link">▶ Ver Gameplay</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="site-footer">
+    <p>RetroGames &copy; 2026 — Trabalho 1 | TT905 Programação Web — UNICAMP FT</p>
+    <nav class="footer-nav">
+      <a href="index.html">Início</a>
+      <a href="ps2.html">PS2</a>
+      <a href="ps3.html">PS3</a>
+      <a href="xbox.html">Xbox</a>
+      <a href="wii.html">Wii</a>
+    </nav>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobileNav').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>

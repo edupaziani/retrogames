@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlayStation 2 – RetroGames</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --accent: #00aaff; }
+    .ps2-bg { background: radial-gradient(ellipse at 50% 0%, rgba(0,48,135,0.35) 0%, transparent 70%); }
+    .game-banner.crash  { background: linear-gradient(135deg, #ff8800, #cc4400); }
+    .game-banner.sonic  { background: linear-gradient(135deg, #1a5ce0, #003399); }
+    .game-banner.nfs    { background: linear-gradient(135deg, #111, #333); }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🎮</span>
+        <span class="logo-text">RetroGames</span>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Início</a>
+        <a href="ps2.html" class="active">PS2</a>
+        <a href="ps3.html">PS3</a>
+        <a href="xbox.html">Xbox</a>
+        <a href="wii.html">Wii</a>
+      </nav>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="index.html">Início</a>
+      <a href="ps2.html">PS2</a>
+      <a href="ps3.html">PS3</a>
+      <a href="xbox.html">Xbox</a>
+      <a href="wii.html">Wii</a>
+    </nav>
+  </header>
+
+  <div class="ps2-bg">
+    <section class="page-hero">
+      <p class="badge">Console Clássico · 2000 – 2013</p>
+      <h1>PlayStation <span>2</span></h1>
+      <p>O console mais vendido da história, com mais de 155 milhões de unidades ao redor do mundo. O PS2 revolucionou os jogos com gráficos impressionantes para a época e um catálogo enorme de títulos.</p>
+    </section>
+  </div>
+
+  <div class="console-info">
+
+    <div class="info-grid">
+      <div class="info-card">
+        <h2>Sobre o Console</h2>
+        <p>Lançado em março de 2000 no Japão, o PlayStation 2 foi desenvolvido pela Sony Computer Entertainment. Além de console de videogame, funcionava também como reprodutor de DVD, o que foi um grande diferencial na época. Seu processador Emotion Engine rodava a 294 MHz, um feito impressionante para o início dos anos 2000. Até hoje é considerado o console mais vendido de todos os tempos.</p>
+      </div>
+      <div class="info-card">
+        <h2>Especificações</h2>
+        <table class="specs-table">
+          <tr><th>CPU</th><td>Emotion Engine 294 MHz</td></tr>
+          <tr><th>GPU</th><td>Graphics Synthesizer 147 MHz</td></tr>
+          <tr><th>RAM</th><td>32 MB RDRAM</td></tr>
+          <tr><th>Mídia</th><td>DVD-ROM / CD-ROM</td></tr>
+          <tr><th>Lançamento</th><td>Março de 2000 (JP)</td></tr>
+          <tr><th>Unidades vendidas</th><td>~155 milhões</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <section class="games-section">
+      <h2 class="section-title">Jogos Clássicos</h2>
+      <div class="games-grid">
+
+        <div class="game-card">
+          <div class="game-banner crash">🐾</div>
+          <div class="game-body">
+            <h3>Crash Bandicoot: The Wrath of Cortex</h3>
+            <p class="genre">Plataforma / Ação</p>
+            <p>Crash Bandicoot retorna para enfrentar o Dr. Cortex e seus novos aliados, os Elementals. O jogo traz fases recheadas de desafios, espinhos, crateras e inimigos variados, mantendo a jogabilidade clássica da série que encantou milhões de fãs desde o PlayStation original. Com gráficos coloridos e personagens carismáticos, foi um dos títulos mais queridos do PS2.</p>
+            <a href="https://www.youtube.com/results?search_query=crash+bandicoot+wrath+of+cortex+ps2" target="_blank" class="game-link">▶ Ver Gameplay</a>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <div class="game-banner sonic">🦔</div>
+          <div class="game-body">
+            <h3>Sonic Heroes</h3>
+            <p class="genre">Plataforma / Ação</p>
+            <p>Sonic Heroes trouxe uma mecânica inovadora de times: o jogador controla grupos de três personagens com habilidades complementares. Os quatro times — Team Sonic, Team Dark, Team Rose e Team Chaotix — têm histórias distintas que se cruzam ao longo da aventura. Com fases velozes e cheias de loops, foi um dos títulos mais marcantes do ouriço azul na era PS2.</p>
+            <a href="https://www.youtube.com/results?search_query=sonic+heroes+ps2+gameplay" target="_blank" class="game-link">▶ Ver Gameplay</a>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <div class="game-banner nfs">🏎️</div>
+          <div class="game-body">
+            <h3>Need for Speed: Most Wanted</h3>
+            <p class="genre">Corrida / Ação</p>
+            <p>Need for Speed: Most Wanted (2005) é um dos capítulos mais aclamados da franquia. O jogador interpreta um corredor que deve subir na lista dos 15 pilotos mais procurados pela polícia enquanto personaliza e evolui seu carro. A perseguição policial intensa, o sistema de customização e as corridas em mundo aberto tornaram esse jogo um dos maiores clássicos do gênero no PS2.</p>
+            <a href="https://www.youtube.com/results?search_query=need+for+speed+most+wanted+ps2+gameplay" target="_blank" class="game-link">▶ Ver Gameplay</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="site-footer">
+    <p>RetroGames &copy; 2026 — Trabalho 1 | TT905 Programação Web — UNICAMP FT</p>
+    <nav class="footer-nav">
+      <a href="index.html">Início</a>
+      <a href="ps2.html">PS2</a>
+      <a href="ps3.html">PS3</a>
+      <a href="xbox.html">Xbox</a>
+      <a href="wii.html">Wii</a>
+    </nav>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobileNav').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>

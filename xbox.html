@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xbox 360 – RetroGames</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --accent: #52c41a; }
+    .xbox-bg { background: radial-gradient(ellipse at 50% 0%, rgba(13,92,26,0.4) 0%, transparent 70%); }
+    .game-banner.minecraft   { background: linear-gradient(135deg, #5a9a2c, #3d6b1e); }
+    .game-banner.justdance   { background: linear-gradient(135deg, #dd00bb, #880077); }
+    .game-banner.batman      { background: linear-gradient(135deg, #1a1a1a, #444); }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🎮</span>
+        <span class="logo-text">RetroGames</span>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Início</a>
+        <a href="ps2.html">PS2</a>
+        <a href="ps3.html">PS3</a>
+        <a href="xbox.html" class="active">Xbox</a>
+        <a href="wii.html">Wii</a>
+      </nav>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="index.html">Início</a>
+      <a href="ps2.html">PS2</a>
+      <a href="ps3.html">PS3</a>
+      <a href="xbox.html">Xbox</a>
+      <a href="wii.html">Wii</a>
+    </nav>
+  </header>
+
+  <div class="xbox-bg">
+    <section class="page-hero">
+      <p class="badge">Console Clássico · 2005 – 2016</p>
+      <h1>Xbox <span>360</span></h1>
+      <p>O Xbox 360 da Microsoft marcou a geração pela qualidade do serviço online Xbox Live, pelos controles sem fio e por títulos multiplataforma que aproveitavam ao máximo o hardware. Foi o console que popularizou as conquistas (achievements) nos jogos.</p>
+    </section>
+  </div>
+
+  <div class="console-info">
+
+    <div class="info-grid">
+      <div class="info-card">
+        <h2>Sobre o Console</h2>
+        <p>Lançado em novembro de 2005, o Xbox 360 foi o primeiro console da geração HD a chegar ao mercado. A Microsoft apostou pesado no serviço Xbox Live, que permitia partidas online pagas com comunicação por voz, download de conteúdo e um sistema de conquistas (Gamerscore) que mudou para sempre a forma de jogar. O Kinect, lançado em 2010, trouxe controles por gestos e voz ao console.</p>
+      </div>
+      <div class="info-card">
+        <h2>Especificações</h2>
+        <table class="specs-table">
+          <tr><th>CPU</th><td>IBM PowerPC Xenon 3,2 GHz (3 núcleos)</td></tr>
+          <tr><th>GPU</th><td>ATI Xenos 500 MHz</td></tr>
+          <tr><th>RAM</th><td>512 MB GDDR3</td></tr>
+          <tr><th>Mídia</th><td>DVD-ROM (HD-DVD opcional)</td></tr>
+          <tr><th>Lançamento</th><td>Novembro de 2005 (NA)</td></tr>
+          <tr><th>Unidades vendidas</th><td>~84 milhões</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <section class="games-section">
+      <h2 class="section-title">Jogos Clássicos</h2>
+      <div class="games-grid">
+
+        <div class="game-card">
+          <div class="game-banner minecraft">⛏️</div>
+          <div class="game-body">
+            <h3>Minecraft: Xbox 360 Edition</h3>
+            <p class="genre">Sandbox / Sobrevivência</p>
+            <p>Minecraft chegou ao Xbox 360 em 2012 e se tornou um dos jogos mais vendidos do console. O jogo de construção e sobrevivência criado por Markus "Notch" Persson permite que os jogadores construam praticamente qualquer coisa usando blocos em um mundo gerado proceduralmente. A versão para Xbox 360 incluía modo cooperativo local para 4 jogadores, algo que ampliou imensamente seu apelo familiar.</p>
+            <a href="https://www.youtube.com/results?search_query=minecraft+xbox+360+edition+gameplay" target="_blank" class="game-link">▶ Ver Gameplay</a>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <div class="game-banner justdance">💃</div>
+          <div class="game-body">
+            <h3>Just Dance 3</h3>
+            <p class="genre">Ritmo / Dança</p>
+            <p>A franquia Just Dance conquistou o Xbox 360 com o uso do Kinect, transformando a sala de estar em uma pista de dança. Just Dance 3, lançado em 2011, trouxe músicas populares e coreografias variadas para todos os estilos. Com suporte para múltiplos jogadores simultaneamente, virou um sucesso absoluto em festas e reuniões familiares, tornando-se uma das franquias mais vendidas da Ubisoft.</p>
+            <a href="https://www.youtube.com/results?search_query=just+dance+3+xbox+360+kinect+gameplay" target="_blank" class="game-link">▶ Ver Gameplay</a>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <div class="game-banner batman">🦇</div>
+          <div class="game-body">
+            <h3>LEGO Batman: The Videogame</h3>
+            <p class="genre">Ação / Aventura</p>
+            <p>LEGO Batman combinou o universo do Homem-Morcego com o humor característico dos jogos LEGO, criando uma aventura para todas as idades. Os jogadores podiam controlar tanto heróis quanto vilões em fases criativas e repletas de quebra-cabeças. Com modo cooperativo para dois jogadores na mesma tela, o jogo foi um enorme sucesso entre crianças e adultos nostálgicos, vendendo mais de 12 milhões de cópias.</p>
+            <a href="https://www.youtube.com/results?search_query=lego+batman+xbox+360+gameplay" target="_blank" class="game-link">▶ Ver Gameplay</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="site-footer">
+    <p>RetroGames &copy; 2026 — Trabalho 1 | TT905 Programação Web — UNICAMP FT</p>
+    <nav class="footer-nav">
+      <a href="index.html">Início</a>
+      <a href="ps2.html">PS2</a>
+      <a href="ps3.html">PS3</a>
+      <a href="xbox.html">Xbox</a>
+      <a href="wii.html">Wii</a>
+    </nav>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobileNav').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>

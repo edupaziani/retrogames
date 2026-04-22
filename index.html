@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RetroGames – A Era Clássica dos Videogames</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🎮</span>
+        <span class="logo-text">RetroGames</span>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html" class="active">Início</a>
+        <a href="ps2.html">PS2</a>
+        <a href="ps3.html">PS3</a>
+        <a href="xbox.html">Xbox</a>
+        <a href="wii.html">Wii</a>
+      </nav>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="index.html">Início</a>
+      <a href="ps2.html">PS2</a>
+      <a href="ps3.html">PS3</a>
+      <a href="xbox.html">Xbox</a>
+      <a href="wii.html">Wii</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="scanlines"></div>
+    <div class="hero-content">
+      <p class="hero-sub">Uma viagem no tempo</p>
+      <h1 class="hero-title">A Era Clássica dos<br><span class="neon">Videogames</span></h1>
+      <p class="hero-desc">Explore os consoles e jogos que definiram gerações inteiras de gamers ao redor do mundo.</p>
+      <a href="ps2.html" class="btn-start">Começar a Explorar</a>
+    </div>
+    <div class="hero-pixels">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </section>
+
+  <section class="consoles-section">
+    <h2 class="section-title">Escolha um Console</h2>
+    <div class="consoles-grid">
+
+      <a href="ps2.html" class="console-card ps2-card">
+        <div class="card-glow"></div>
+        <div class="card-icon">🎮</div>
+        <div class="card-info">
+          <h3>PlayStation 2</h3>
+          <p>2000 – 2013</p>
+          <ul>
+            <li>Crash Bandicoot</li>
+            <li>Sonic Heroes</li>
+            <li>Need for Speed</li>
+          </ul>
+        </div>
+        <div class="card-arrow">→</div>
+      </a>
+
+      <a href="ps3.html" class="console-card ps3-card">
+        <div class="card-glow"></div>
+        <div class="card-icon">🕹️</div>
+        <div class="card-info">
+          <h3>PlayStation 3</h3>
+          <p>2006 – 2017</p>
+          <ul>
+            <li>Modern Warfare 2</li>
+            <li>Ratchet &amp; Clank</li>
+            <li>Uncharted</li>
+          </ul>
+        </div>
+        <div class="card-arrow">→</div>
+      </a>
+
+      <a href="xbox.html" class="console-card xbox-card">
+        <div class="card-glow"></div>
+        <div class="card-icon">🎯</div>
+        <div class="card-info">
+          <h3>Xbox 360</h3>
+          <p>2005 – 2016</p>
+          <ul>
+            <li>Minecraft</li>
+            <li>Just Dance</li>
+            <li>LEGO Batman</li>
+          </ul>
+        </div>
+        <div class="card-arrow">→</div>
+      </a>
+
+      <a href="wii.html" class="console-card wii-card">
+        <div class="card-glow"></div>
+        <div class="card-icon">📡</div>
+        <div class="card-info">
+          <h3>Nintendo Wii</h3>
+          <p>2006 – 2013</p>
+          <ul>
+            <li>Wii Sports</li>
+            <li>Cloudy w/ Meatballs</li>
+            <li>Mario Kart Wii</li>
+          </ul>
+        </div>
+        <div class="card-arrow">→</div>
+      </a>
+
+    </div>
+  </section>
+
+  <section class="timeline-section">
+    <h2 class="section-title">Linha do Tempo</h2>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-dot ps2-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2000</span>
+          <span class="tl-name">PlayStation 2</span>
+        </div>
+      </div>
+      <div class="tl-line"></div>
+      <div class="tl-item">
+        <div class="tl-dot xbox-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2005</span>
+          <span class="tl-name">Xbox 360</span>
+        </div>
+      </div>
+      <div class="tl-line"></div>
+      <div class="tl-item">
+        <div class="tl-dot ps3-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2006</span>
+          <span class="tl-name">PlayStation 3</span>
+        </div>
+      </div>
+      <div class="tl-line"></div>
+      <div class="tl-item">
+        <div class="tl-dot wii-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2006</span>
+          <span class="tl-name">Nintendo Wii</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>RetroGames &copy; 2026 — Trabalho 1 | TT905 Programação Web — UNICAMP FT</p>
+    <nav class="footer-nav">
+      <a href="index.html">Início</a>
+      <a href="ps2.html">PS2</a>
+      <a href="ps3.html">PS3</a>
+      <a href="xbox.html">Xbox</a>
+      <a href="wii.html">Wii</a>
+    </nav>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('mobileNav');
+      nav.classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
